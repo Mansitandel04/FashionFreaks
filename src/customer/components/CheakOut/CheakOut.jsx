@@ -74,8 +74,8 @@ export default function Cheakout (){
           </Box>
 
            <div  className='mt-10 m-5 gap-5'>
-            {step==2?<DeliveryAdd/>:<OrderSummery/>}
-            {/* <DeliveryAdd/> */}
+            {/* {step==2?<DeliveryAdd/>:<OrderSummery/>} */}
+            <DeliveryAdd/>
             <OrderSummery/>
             
            </div>

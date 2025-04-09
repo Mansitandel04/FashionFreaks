@@ -50,7 +50,7 @@ const Login = () => {
           </div>
           <p className="text-textColor mt-5 text-center">
             Don't have an account?
-            <Link to="/" className="text-primaryColor font-medium ml-1">
+            <Link to="/sign%20in" className="text-primaryColor font-medium ml-1">
               Register
             </Link>
           </p>

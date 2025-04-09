@@ -16,10 +16,10 @@ const Signup = () => {
   const handleInputChange= (e) => {
     setFormData({ ...formData ,[e.target.name]:e.target.value});
    };
-  //  const handleFileInputChange = async(event)=>{
-  //   const file =event.target.files[0]
-  //   console.log(file)
-  //  };
+   const handleFileInputChange = async(event)=>{
+    const file =event.target.files[0]
+    console.log(file)
+   };
    const submitHandler =async event=>{
     event.preventDefault()
     console.log(formData)
@@ -79,7 +79,7 @@ const Signup = () => {
           </div>
           <p className="text-textColor mt-5 text-center">
             Already Have an account?
-            <Link to="/login" className="text-primaryColor font-medium ml-1">
+            <Link to="/login" className="text-primaryColor font-medium ml-1 "  >
               login
             </Link>
           </p>

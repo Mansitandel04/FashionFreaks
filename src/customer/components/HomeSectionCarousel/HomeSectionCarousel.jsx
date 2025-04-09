@@ -3,7 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import HomeSectionCard from "../HomeSectionCard/HomeSectionCard";
 import { Trending } from "../../Data/Trending";
 // import { Trending } from "../../Data/Trending";
-
+import Product from "../Product/Product"
 
 
 // import { Button } from "@mui/material";
@@ -41,6 +41,7 @@ const items = Trending.slice(0,10).map((item) => (
         responsive={responsive}/>
         {/* <Button variant="contained" className="" sx={{ transform:'translateX(50%)rotate(90deg)'}} color="white" aria-label="next" > < /></Button> */}
       </div>
+      <Product/>
     </div>
   );
 };
